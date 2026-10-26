@@ -1,0 +1,147 @@
+
+[
+  {
+    "id": 1,
+    "titre": "Le Petit Prince",
+    "auteur": "A. de Saint-Exupéry",
+    "genre": "Jeunesse",
+    "annee": 1943,
+    "note": 4.8,
+    "couleur": "#0288D1",
+    "nouveaute": false,
+    "lu": false,
+    "favori": false
+  },
+  {
+    "id": 2,
+    "titre": "L'Étranger",
+    "auteur": "Albert Camus",
+    "genre": "Roman",
+    "annee": 1942,
+    "note": 4.3,
+    "couleur": "#E64A19",
+    "nouveaute": false,
+    "lu": false,
+    "favori": false
+  },
+  {
+    "id": 3,
+    "titre": "Les Misérables",
+    "auteur": "Victor Hugo",
+    "genre": "Classique",
+    "annee": 1862,
+    "note": 4.7,
+    "couleur": "#6A1B9A",
+    "nouveaute": false,
+    "lu": false,
+    "favori": false
+  },
+  {
+    "id": 4,
+    "titre": "L'Alchimiste",
+    "auteur": "Paulo Coelho",
+    "genre": "Roman",
+    "annee": 1988,
+    "note": 4.5,
+    "couleur": "#00897B",
+    "nouveaute": false,
+    "lu": false,
+    "favori": false
+  },
+  {
+    "id": 5,
+    "titre": "1984",
+    "auteur": "George Orwell",
+    "genre": "Science-fiction",
+    "annee": 1949,
+    "note": 4.6,
+    "couleur": "#C62828",
+    "nouveaute": false,
+    "lu": false,
+    "favori": false
+  },
+  {
+    "id": 6,
+    "titre": "Harry Potter à l'école des sorciers",
+    "auteur": "J. K. Rowling",
+    "genre": "Fantastique",
+    "annee": 1997,
+    "note": 4.9,
+    "couleur": "#3949AB",
+    "nouveaute": false,
+    "lu": false,
+    "favori": false
+  },
+  {
+    "id": 7,
+    "titre": "Le Seigneur des anneaux",
+    "auteur": "J. R. R. Tolkien",
+    "genre": "Fantastique",
+    "annee": 1954,
+    "note": 4.9,
+    "couleur": "#558B2F",
+    "nouveaute": false,
+    "lu": false,
+    "favori": false
+  },
+  {
+    "id": 8,
+    "titre": "L'Écume des jours",
+    "auteur": "Boris Vian",
+    "genre": "Roman",
+    "annee": 1947,
+    "note": 4.1,
+    "couleur": "#F9A825",
+    "nouveaute": false,
+    "lu": false,
+    "favori": false
+  },
+  {
+    "id": 9,
+    "titre": "Dune",
+    "auteur": "Frank Herbert",
+    "genre": "Science-fiction",
+    "annee": 1965,
+    "note": 4.8,
+    "couleur": "#795548",
+    "nouveaute": true,
+    "lu": false,
+    "favori": false
+  },
+  {
+    "id": 10,
+    "titre": "Clean Code",
+    "auteur": "Robert C. Martin",
+    "genre": "Informatique",
+    "annee": 2008,
+    "note": 4.7,
+    "couleur": "#1565C0",
+    "nouveaute": true,
+    "lu": false,
+    "favori": false
+  },
+  {
+    "id": 11,
+    "titre": "Atomic Habits",
+    "auteur": "James Clear",
+    "genre": "Développement personnel",
+    "annee": 2018,
+    "note": 4.6,
+    "couleur": "#AD1457",
+    "nouveaute": true,
+    "lu": false,
+    "favori": false
+  },
+  {
+    "id": 12,
+    "titre": "Flutter en pratique",
+    "auteur": "Équipe MaBiblio",
+    "genre": "Informatique",
+    "annee": 2025,
+    "note": 4.4,
+    "couleur": "#00796B",
+    "nouveaute": true,
+    "lu": false,
+    "favori": false
+  }
+]
