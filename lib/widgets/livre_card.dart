@@ -4,10 +4,12 @@ import '../models/livre.dart';
 
 class LivreCard extends StatelessWidget {
   final Livre livre;
+  final VoidCallback? onTap;
 
   const LivreCard({
     super.key,
     required this.livre,
+    this.onTap,
   });
 
   Widget livreTile() {
@@ -35,24 +37,33 @@ class LivreCard extends StatelessWidget {
             Icons.star,
             color: Colors.amber,
           ),
+          const SizedBox(width: 4),
           Text(livre.note.toString()),
         ],
       ),
+      onTap: onTap,
     );
   }
 
   @override
   Widget build(BuildContext context) {
     return Card(
+      color: Colors.white,
+      shadowColor: Colors.blueGrey,
+      surfaceTintColor: Colors.blue,
+      elevation: 4,
       margin: const EdgeInsets.symmetric(
         horizontal: 12,
         vertical: 6,
       ),
-      elevation: 3,
       shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(12),
+        borderRadius: BorderRadius.circular(16),
       ),
-      child: livreTile(),
+      clipBehavior: Clip.antiAlias,
+      child: InkWell(
+        onTap: onTap,
+        child: livreTile(),
+      ),
     );
   }
 }
