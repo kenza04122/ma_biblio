@@ -8,7 +8,9 @@ class Livre {
   final double note;
   final Color couleur;
   final String genre;
+
   bool lu;
+  bool favori;
 
   Livre({
     required this.titre,
@@ -18,5 +20,6 @@ class Livre {
     required this.couleur,
     required this.genre,
     this.lu = false,
+    this.favori = false,
   });
 }
